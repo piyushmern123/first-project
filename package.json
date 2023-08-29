@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "frontend": "cd client && npm run build",
-    "backend": "npm run start"
+    "backend": "npm run start",
+    "build": "echo \"react-scripts build\""
   },
   "author": "",
   "license": "ISC",
