@@ -9,7 +9,8 @@ app.use(cors());
 
 //DB configs
 mongoose
-  .connect("mongodb://localhost:27017/mypostsDB")
+  .connect("mongodb+srv://448piyush:0ClID215JdUog9Y0@cluster0.qwm0tei.mongodb.net/?retryWrites=true&w=majority")
+  .then(()=>console.log("Connected"))
   .catch((err) => console.log(err));
 
 const postSchema = mongoose.Schema({
