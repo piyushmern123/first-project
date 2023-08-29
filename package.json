@@ -4,11 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node \"D:\\New folder (2)\\index.js\"", 
-    "build": "npm run build-frontend && npm run build-backend",
-    "build-frontend": "cd client && npm install && npm run build",
-    "build-backend": "cd node_modules && npm install && npm run build"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
@@ -18,3 +14,5 @@
     "mongoose": "^6.12.0"
   }
 }
+
+
